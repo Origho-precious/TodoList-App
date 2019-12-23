@@ -1,0 +1,67 @@
+
+body{
+    background-color: #f5655b;
+    color: #fff;
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    margin:2% 0 5% 0%;
+}
+
+h3{
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 2%;
+}
+
+h4{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    margin-top: 5%;
+}
+
+.container-fluid{
+    margin-left: 10%;
+}
+
+.input{
+    width: 40%;
+}
+
+.fas,.far{
+   margin-left: 98%;
+   margin-bottom: 1%;
+   margin-top: 1%;
+   color: #f5655b;
+   padding: 0%;
+}
+
+.fas:hover{
+   color: #c2461f;
+}
+
+.far:hover{
+   color: #c2461f;
+}
+
+.none{
+    list-style-type: none;
+}
+
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.651);
+    color: #F71313;
+    width: 50%;
+    padding-left: 2%;
+}    
+
+.completed{
+    text-decoration: line-through;
+    text-decoration-color: #000;
+}
+
+.instructions{
+    padding-right: 15%;
+} 
