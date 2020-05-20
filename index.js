@@ -73,7 +73,7 @@ function addItem(e){
 
     //CREATE A NEW ITEMLIST IN THE UI
     //checking if there is a text in inputfield befoe creating
-   if(newItem.length == 0) {
+   if(newItem.length !== 0) {
        alert('Type in Todo in inputField!');
    }else{
         var li = document.createElement('li');
